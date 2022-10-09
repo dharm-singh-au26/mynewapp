@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import ClassCounter from "./components/ClassCounter";
+import DataFetching from "./components/DataFetching";
 import HookCounter from "./components/HookCounter";
 import HookCounterArray from "./components/HookCounterArray";
 import HookCounterTwo from "./components/HookCounterTwo";
@@ -27,8 +28,10 @@ function App() {
         {/* <HookEffectsCounter /> */}
         {/* <HooksMouse/> */}
         {/* <MouseContainer/> */}
-        <IntervalClassCounter />
-        <IntervalHookCounter/>
+        {/* <IntervalClassCounter />
+        <IntervalHookCounter/> */}
+
+        <DataFetching/>
       </>
     </div>
   );
