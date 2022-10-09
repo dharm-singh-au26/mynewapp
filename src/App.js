@@ -7,6 +7,9 @@ import HookCounterTwo from "./components/HookCounterTwo";
 import HookEffectsCounter from "./components/HookEffectsCounter";
 import HooksCounterThree from "./components/HooksCounterThree";
 import HooksMouse from "./components/HooksMouse";
+import IntervalClassCounter from "./components/IntervalClassCounter";
+import IntervalHookCounter from "./components/IntervalHookCounter";
+import MouseContainer from "./components/MouseContainer";
 import PostForm from "./components/PostForm";
 import PostList from "./components/PostList";
 
@@ -22,7 +25,10 @@ function App() {
         {/* <HooksCounterThree/> */}
         {/* <HookCounterArray/> */}
         {/* <HookEffectsCounter /> */}
-        <HooksMouse/>
+        {/* <HooksMouse/> */}
+        {/* <MouseContainer/> */}
+        <IntervalClassCounter />
+        <IntervalHookCounter/>
       </>
     </div>
   );
