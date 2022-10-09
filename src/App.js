@@ -6,6 +6,7 @@ import HookCounterArray from "./components/HookCounterArray";
 import HookCounterTwo from "./components/HookCounterTwo";
 import HookEffectsCounter from "./components/HookEffectsCounter";
 import HooksCounterThree from "./components/HooksCounterThree";
+import HooksMouse from "./components/HooksMouse";
 import PostForm from "./components/PostForm";
 import PostList from "./components/PostList";
 
@@ -20,7 +21,8 @@ function App() {
         {/* <HookCounterTwo /> */}
         {/* <HooksCounterThree/> */}
         {/* <HookCounterArray/> */}
-        <HookEffectsCounter />
+        {/* <HookEffectsCounter /> */}
+        <HooksMouse/>
       </>
     </div>
   );
