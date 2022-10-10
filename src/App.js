@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import ClassCounter from "./components/ClassCounter";
+import ComponentC from "./components/ComponentC";
 import DataFetching from "./components/DataFetching";
 import HookCounter from "./components/HookCounter";
 import HookCounterArray from "./components/HookCounterArray";
@@ -14,6 +15,8 @@ import MouseContainer from "./components/MouseContainer";
 import PostForm from "./components/PostForm";
 import PostList from "./components/PostList";
 
+export const UserContext = React.createContext();
+export const ChannelContext = React.createContext();
 function App() {
   return (
     <div className="App">
@@ -31,7 +34,13 @@ function App() {
         {/* <IntervalClassCounter />
         <IntervalHookCounter/> */}
 
-        <DataFetching/>
+        {/* <DataFetching/> */}
+        {/* <UserContext.Provider value={'Dharm'}>
+          <ChannelContext.Provider value={'Singh'}>
+
+          <ComponentC />
+          </ChannelContext.Provider>
+        </UserContext.Provider> */}
       </>
     </div>
   );
