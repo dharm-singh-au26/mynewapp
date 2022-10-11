@@ -6,6 +6,7 @@ import CounterOne from "./components/CounterOne";
 import CounterTwo from "./components/CounterTwo";
 import DataFetching from "./components/DataFetching";
 import DocTitleOne from "./components/DocTitleOne";
+import DocTitleTwo from "./components/DocTitleTwo";
 import HookCounter from "./components/HookCounter";
 import HookCounterArray from "./components/HookCounterArray";
 import HookCounterTwo from "./components/HookCounterTwo";
@@ -47,6 +48,7 @@ function App() {
         {/* < CounterOne />  */}
         {/* <CounterTwo/> */}
         <DocTitleOne/>
+        <DocTitleTwo/>
       </>
     </div>
   );
