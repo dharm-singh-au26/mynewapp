@@ -5,6 +5,7 @@ import ComponentC from "./components/ComponentC";
 import CounterOne from "./components/CounterOne";
 import CounterTwo from "./components/CounterTwo";
 import DataFetching from "./components/DataFetching";
+import DocTitleOne from "./components/DocTitleOne";
 import HookCounter from "./components/HookCounter";
 import HookCounterArray from "./components/HookCounterArray";
 import HookCounterTwo from "./components/HookCounterTwo";
@@ -44,7 +45,8 @@ function App() {
           </ChannelContext.Provider>
         </UserContext.Provider> */}
         {/* < CounterOne />  */}
-        <CounterTwo/>
+        {/* <CounterTwo/> */}
+        <DocTitleOne/>
       </>
     </div>
   );
