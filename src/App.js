@@ -20,6 +20,7 @@ import IntervalHookCounter from "./components/IntervalHookCounter";
 import MouseContainer from "./components/MouseContainer";
 import PostForm from "./components/PostForm";
 import PostList from "./components/PostList";
+import UseState from "./componentsnew/UseState/UseState";
 
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
@@ -51,8 +52,9 @@ function App() {
         {/* <CounterTwo/> */}
         {/* <DocTitleOne/>
         <DocTitleTwo/> */}
-     <C1/>
-     <C2/>
+        {/* <C1/>
+     <C2/> */}
+     <UseState/>
       </>
     </div>
   );
