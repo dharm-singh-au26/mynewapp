@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css";
+import C1 from "./components/C1";
+import C2 from "./components/C2";
 import ClassCounter from "./components/ClassCounter";
 import ComponentC from "./components/ComponentC";
 import CounterOne from "./components/CounterOne";
@@ -47,8 +49,10 @@ function App() {
         </UserContext.Provider> */}
         {/* < CounterOne />  */}
         {/* <CounterTwo/> */}
-        <DocTitleOne/>
-        <DocTitleTwo/>
+        {/* <DocTitleOne/>
+        <DocTitleTwo/> */}
+     <C1/>
+     <C2/>
       </>
     </div>
   );
