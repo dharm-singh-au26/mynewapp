@@ -5,7 +5,7 @@ const createStore = redux.createStore;
 
 const BUY_CAKE = "BUY_CAKE";
 const BUY_ICE_CERAM = "BUY_ICE_CREAM";
-iommm
+
 function buyCake() {
   return {
     type: BUY_CAKE,
